@@ -74,15 +74,22 @@ This project was built using HTML/CSS in VS Code!
 
 </div>
 
-<!-- GETTING STARTED -->
 
 <!-- ROADMAP -->
 
+
+
 ## Roadmap
 
-- [   ] Connect to git and link the almighty Panda.
+
+
+
+
+- [ X ] Connect to git and link the almighty Panda.
 - [   ] Boilerplate and general layout.
 - [   ] Porfolio.css folder
+- [   ] Containerization and file structure.
+- [   ] Container positioning in css.
 - [   ] Porfolio.js folder
 - [   ] Link to Materialize.
 
@@ -146,7 +153,8 @@ This project was built using HTML/CSS in VS Code!
 <!-- - [   ] >>"Hey what are you doing down here?" -->
 <!-- - [   ] Prefetch pages? -->
 
-
+<!-- Geocaching App -->
+<!-- Recipe book website with logins. -->
 
 
 See the [open issues](https://github.com/awessels/portfolio/issues) for a full list of proposed features (and known issues).
