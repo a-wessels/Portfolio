@@ -1,19 +1,24 @@
 *{
   font-family: Arial;
+  margin: 0;
 }
 main {
+  margin: 100px 0px 0px 100px;
   width: 1280px;
   height: 2000px;
   background-color: rgba(233, 230, 230, 0.5);
 }
 .project-container{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
   background-color: lightgreen;
 }
 .project-preview-container{
   width: 300px;
+  display:flex;
+  flex-direction: column;
+  justify-self: center;
 }
 .project-thumbnail-container{
   size: auto;
