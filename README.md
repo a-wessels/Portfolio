@@ -1,25 +1,19 @@
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/awessels/portfolio.svg?style=plastic&logo=appveyor)](https://github.com/awessels/portfolio/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/awessels/portfolio.svg?style=plastic&logo=appveyor)](https://github.com/awessels/portfolio/network/members)
-[![Stargazers](https://img.shields.io/github/stars/awessels/portfolio.svg?style=plastic&logo=appveyor)](https://github.com/awessels/portfolio/stargazers)
-[![Issues](https://img.shields.io/github/issues/awessels/portfolio.svg?style=plastic&logo=appveyor)](https://github.com/awessels/portfolio/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/aydan-wessels-8b431188)
 
 </div>
 
 <!-- PROJECT LOGO -->
-
+ 
 <div align="center">
   <a href="https://github.com/awessels/portfolio">
     <img src="/client/src/images/logoNew.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">PORTFOLIO/h3>
+<h3 align="center">PORTFOLIO >
 
   <p align="center">
-    A showcase of my coding skillset. <br />
+    A showcase of my coding skill-set. <br />
     <a href="https://github.com/awessels/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -35,19 +29,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#installation">Installation</a></li> 
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -55,6 +38,8 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -69,6 +54,7 @@ This project was built using HTML/CSS in VS Code!
 
 <div align="center"> 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![HTML](https://img.shields.io/badge/Language-HTML/CSS-ff8000?style=plastic&logo=HTML5&logoWidth=10)](https://html.com/)
 [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
 
@@ -98,7 +84,7 @@ This project was built using HTML/CSS in VS Code!
 **Styles**
 
 - [   ] Connect to materialize.
-- [   ] Link to Font, Stlye, Theme, and Icons Lib
+- [   ] Link to Font, Style, Theme, and Icons Lib
 - [   ] Shared page width on body tag. Vertical scrolling page.
 - [   ] Overall background persistent regardless of perspective. Gradient from top light to dark like sunset or late twilight.
 <!-- - [   ] Ripple transitions on button click. -->
@@ -109,7 +95,7 @@ This project was built using HTML/CSS in VS Code!
 **OBJECTS**
 
 - [   ] Sticky Sidebar for contact links
-- [   ] Sidescrolling buttons in each section.
+- [   ] Side-scrolling buttons in each section.
 - [   ] >>Flexbox titles above.
 - [   ] Project Thumbnails
 <!-- - [   ] Hover generates mini preview video of project. -->
@@ -122,13 +108,13 @@ This project was built using HTML/CSS in VS Code!
 - [   ] >>Ragdoll
 <!-- - [   ] >>Electromagnetic waves in circuit. -->
 <!-- - [   ] >>Flat plane newton motion with kinetic and static friction. -->
-- [   ] >>Water buouy.
+- [   ] >>Water buoy.
 - **Popular Site Clones**
-- [   ] >>Youtube
+- [   ] >>YouTube
 - [   ] >>Amazon
 <!-- - [   ] >>Facebook -->
 <!-- - [   ] >>LinkedIn -->
-<!-- - [   ] >>Clone of my own site without Materialize and SCSS just to show I can do it without, but that the code is much less tidy. -->
+<!-- - [   ] >>Clone of my own site without Materialize just to show I can do it without, but that the code is much less tidy. -->
 - **Software demonstrations/Tutorials**
 - [   ] >>AutoIT
 - [   ] >>VS Code

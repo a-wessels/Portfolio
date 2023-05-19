@@ -1,14 +1,14 @@
 <br>
 **OVERVIEW**
 
-I got rid of all my ADD scribbles from the messy creative phase and tidied things up around here. Should be a lot nicer.
+I added some images and a header.
 
 
 
 
 **@404Pandas**
 
-
+MOW
 
 
 
@@ -18,10 +18,8 @@ I got rid of all my ADD scribbles from the messy creative phase and tidied thing
 
 **What I did *not* do.**
 
-* Anything with illustrator.
-* Anything with JavaScript
-* Responsive anything.
+* Eat breakfast.
 
 **What's next.**
 
-* Top of page.
+* Eat breakfast.
