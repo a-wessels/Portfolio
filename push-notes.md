@@ -14,7 +14,7 @@ MOW
 
 **What I did.**
 
-* The army **grows* 🐱🐱🐱🐱
+* Fix image links.
 
 **What I did *not* do.**
 
@@ -22,4 +22,4 @@ MOW
 
 **What's next.**
 
-* Eat breakfast.
+* Eat breakfast. For real this time.
