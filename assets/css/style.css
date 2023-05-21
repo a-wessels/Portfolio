@@ -1,9 +1,9 @@
-*{
+* {
   font-family: Arial;
   margin: 0;
 }
 html {
-  background-image: url(../images/background1.png);
+  background-image: url(../images/background.png);
   background-
   background-repeat: no-repeat;
   background-position: center;
@@ -22,27 +22,25 @@ header {
 }
 
 main {
-
-
   margin: 150px 0px 0px 100px;
   width: 1280px;
   height: 2000px;
 }
-.project-container{
+.project-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
 }
-.project-preview-container{
+.project-preview-container {
   width: 300px;
   display:flex;
   flex-direction: column;
   justify-self: center;
 }
-.project-thumbnail-container{
+.project-thumbnail-container {
   size: auto;
 }
-.project-thumbnail-container i{
+.project-thumbnail-container i {
   size: auto;
 }
 .project-info-container {
@@ -50,15 +48,32 @@ main {
   grid-template-columns: 50px 1fr;
   width: 300px;
 }
-.project-logos-container{
+.project-logos-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.project-logos-container img{
+.project-logos-container img {
   height: 15px;
   width: 15px;
   padding-top: 5px;
-.project-description{
-  font-size: small;
 }
+.project-description {
+  font-size: 80px;
+}
+.glow {
+  color: #082A60;
+  text-align: center;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
