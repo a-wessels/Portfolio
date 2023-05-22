@@ -7,13 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aydan Wessels//Full Stack Developer</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="scripts" href="/assets/JS/script.js" />
     <script
       src="https://kit.fontawesome.com/1760f074e2.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
   </head>
   <body>
     <header>
@@ -32,72 +30,102 @@
     </div>
 
     <main>
-      <div class="project-container">
-        <div class="project-preview-container">
-          <div class="project-thumbnail-container">
-            <img src="./assets/images/kitter1.png" width="300" />
-          </div>
-          <div class="project-info-container">
-            <div class="project-logos-container">
-              <img src="http://placekitten.com/100//100/" alt="mew" /><img
-                src="http://placekitten.com/100//100/"
-                alt="mew"
-              />
-            </div>
-            <div class="project-description, glow">
-              MOW MOW MOW MROW PRRUP MOW MOW MOW
-            </div>
-          </div>
+      <div class="tabs, glow">
+        <div class="tab active" onclick="openTab(event, 'section1')">
+          Kitters
         </div>
-        <div class="project-preview-container">
-          <div class="project-thumbnail-container">
-            <img src="./assets/images/kitter2.png" width="300" />
-          </div>
-          <div class="project-info-container">
-            <div class="project-logos-container">
-              <img src="http://placekitten.com/100//100/" alt="mew" /><img
-                src="http://placekitten.com/100//100/"
-                alt="mew"
-              />
+        <div class="tab" onclick="openTab(event, 'section2')">Site Clones</div>
+        <div class="tab" onclick="openTab(event, 'section3')">Apps</div>
+        <div class="tab" onclick="openTab(event, 'section4')">About</div>
+      </div>
+
+      <div id="section1" class="content active-content">
+        <div class="project-container">
+          <div class="project-preview-container">
+            <div class="project-thumbnail-container">
+              <img src="./assets/images/kitter1.png" width="300" />
             </div>
-            <div class="project-description, glow">
-              MOW MOW MOW MROW PRRUP MOW MOW MOW
-            </div>
-          </div>
-        </div>
-        <div class="project-preview-container">
-          <div class="project-thumbnail-container">
-            <img src="./assets/images/kitter3.png" width="300" />
-          </div>
-          <div class="project-info-container">
-            <div class="project-logos-container">
-              <img src="http://placekitten.com/100//100/" alt="mew" /><img
-                src="http://placekitten.com/100//100/"
-                alt="mew"
-              />
-            </div>
-            <div class="project-description, glow">
-              MOW MOW MOW MROW PRRUP MOW MOW MOW
+            <div class="project-info-container">
+              <div class="project-logos-container">
+                <img src="http://placekitten.com/100//100/" alt="mew" /><img
+                  src="http://placekitten.com/100//100/"
+                  alt="mew"
+                />
+              </div>
+              <div class="project-description, glow">
+                MOW MOW MOW MROW PRRUP MOW MOW MOW
+              </div>
             </div>
           </div>
-        </div>
-        <div class="project-preview-container">
-          <div class="project-thumbnail-container">
-            <img src="./assets/images/kitter4.png" width="300" />
-          </div>
-          <div class="project-info-container">
-            <div class="project-logos-container">
-              <img src="http://placekitten.com/100//100/" alt="mew" /><img
-                src="http://placekitten.com/100//100/"
-                alt="mew"
-              />
+          <div class="project-preview-container">
+            <div class="project-thumbnail-container">
+              <img src="./assets/images/kitter2.png" width="300" />
             </div>
-            <div class="project-description, glow">
-              MOW MOW MOW MROW PRRUP MOW MOW MOW
+            <div class="project-info-container">
+              <div class="project-logos-container">
+                <img src="http://placekitten.com/100//100/" alt="mew" /><img
+                  src="http://placekitten.com/100//100/"
+                  alt="mew"
+                />
+              </div>
+              <div class="project-description, glow">
+                MOW MOW MOW MROW PRRUP MOW MOW MOW
+              </div>
+            </div>
+          </div>
+          <div class="project-preview-container">
+            <div class="project-thumbnail-container">
+              <img src="./assets/images/kitter3.png" width="300" />
+            </div>
+            <div class="project-info-container">
+              <div class="project-logos-container">
+                <img src="http://placekitten.com/100//100/" alt="mew" /><img
+                  src="http://placekitten.com/100//100/"
+                  alt="mew"
+                />
+              </div>
+              <div class="project-description, glow">
+                MOW MOW MOW MROW PRRUP MOW MOW MOW
+              </div>
+            </div>
+          </div>
+          <div class="project-preview-container">
+            <div class="project-thumbnail-container">
+              <img src="./assets/images/kitter4.png" width="300" />
+            </div>
+            <div class="project-info-container">
+              <div class="project-logos-container">
+                <img src="http://placekitten.com/100//100/" alt="mew" /><img
+                  src="http://placekitten.com/100//100/"
+                  alt="mew"
+                />
+              </div>
+              <div class="project-description, glow">
+                MOW MOW MOW MROW PRRUP MOW MOW MOW
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div id="section2" class="content">
+        <h2>Section 2</h2>
+        <p>This is the content of section 2.</p>
+      </div>
     </main>
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("content");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
   </body>
 </html>

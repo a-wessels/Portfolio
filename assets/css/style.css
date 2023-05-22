@@ -1,6 +1,8 @@
 * {
   font-family: Arial;
   margin: 0;
+  color: #082A60;
+  text-shadow: #ff4da6;
 }
 html {
   background-image: url(../images/background.png);
@@ -49,7 +51,29 @@ header {
   margin-bottom: 10px;
 }
 
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  column-gap: 20px;
+}
 
+.tab {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.active {
+  display: contents;
+}
+.content {
+  display: none;
+}
+.active-content {
+  display: contents;
+      }
 main {
   margin: 150px 0px 0px 100px;
   width: 1280px;
@@ -92,7 +116,7 @@ main {
   text-align: center;
 }
 .glow {
-  color: #082A60;
+  color: #082A60; 
   -moz-animation: glow 1s ease-in-out infinite alternate;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
